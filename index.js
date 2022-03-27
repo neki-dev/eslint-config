@@ -11,6 +11,7 @@ module.exports = {
   extends: ['airbnb', 'airbnb-typescript'],
   rules: {
     'react/jsx-max-props-per-line': [1, { "maximum": 3 }],
+    'react/jsx-props-no-spreading': 'off',
     'import/extensions': 'off',
     'no-underscore-dangle': 'off',
     '@typescript-eslint/member-delimiter-style': [
