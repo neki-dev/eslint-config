@@ -1,6 +1,6 @@
 {
   "name": "@neki-dev/eslint-config",
-  "description": "ESLint configuration based on airbnb",
+  "description": "Personal ESLint configuration",
   "version": "0.1.0",
   "author": {
     "name": "Nikita Galadiy",
