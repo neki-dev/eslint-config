@@ -1,10 +1,8 @@
 ### Personal ESLint configuration for React and TypeScript stack.
-### Based on Airbnb.
+#### Based on Airbnb.
 .
 ```
-"devDependencies": {
-  "@neki-dev/eslint-config": "github:neki-dev/eslint-config",
-}
+npm i github:neki-dev/eslint-config -D
 ```
 ```
 module.exports = {
