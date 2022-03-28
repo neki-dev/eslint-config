@@ -1,9 +1,9 @@
 module.exports = {
+  extends: ['airbnb-typescript'],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json"
   },
-  extends: ['airbnb-typescript'],
   rules: {
     '@typescript-eslint/member-delimiter-style': [
       'error',

@@ -4,11 +4,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    project: "./tsconfig.json"
-  },
-  extends: ['airbnb', 'airbnb-typescript'],
+  extends: ['airbnb'],
   rules: {
     'react/jsx-max-props-per-line': [1, { "maximum": 3 }],
     'react/jsx-props-no-spreading': 'off',
@@ -17,18 +13,5 @@ module.exports = {
     'jsx-a11y/anchor-has-content': 'off',
     'import/extensions': 'off',
     'no-underscore-dangle': 'off',
-    '@typescript-eslint/member-delimiter-style': [
-      'error',
-      {
-        multiline: {
-          delimiter: 'none',
-          requireLast: true
-        },
-        singleline: {
-          delimiter: 'semi',
-          requireLast: false
-        }
-      }
-    ],
   },
 };

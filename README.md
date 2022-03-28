@@ -2,13 +2,13 @@
 #### Based on Airbnb.
 .
 ```
-npm i github:neki-dev/eslint-config -D
+npm i github:neki-dev/eslint-config -D --force
 ```
 ```
 module.exports = {
   extends: [
     '@neki-dev/eslint-config',
-    '@neki-dev/eslint-config/typescript',
+    '@neki-dev/eslint-config/typescript', // optional
   ],
 };
 ```
