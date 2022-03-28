@@ -13,5 +13,6 @@ module.exports = {
     'jsx-a11y/anchor-has-content': 'off',
     'import/extensions': 'off',
     'no-underscore-dangle': 'off',
+    'no-restricted-syntax': 'off',
   },
 };
