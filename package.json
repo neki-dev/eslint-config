@@ -1,14 +1,14 @@
 {
   "name": "@neki-dev/eslint-config",
   "description": "Personal ESLint configuration",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "Nikita Galadiy",
     "email": "dev@neki.guru",
     "url": "https://neki.guru/"
   },
   "license": "MIT",
-  "main": "default.js",
+  "main": "default.json",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
