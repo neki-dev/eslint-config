@@ -13,6 +13,7 @@
     "jsx-a11y/anchor-has-content": "off",
     "import/extensions": "off",
     "import/prefer-default-export": "off",
+    "no-restricted-exports": "off",
     "no-underscore-dangle": "off",
     "no-restricted-syntax": "off"
   }
