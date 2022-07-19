@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neki",
-  "description": "Personal ESLint configuration",
+  "description": "Personal native eslint config",
   "version": "0.0.2",
   "author": {
     "name": "Nikita Galadiy",
