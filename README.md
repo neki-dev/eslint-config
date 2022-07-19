@@ -1,12 +1,15 @@
 ```
-npm i github:neki-dev/eslint-config -D --force
+npm i eslint-config-neki -D --force
+npx install-peerdeps --dev eslint-config-neki
 ```
 
 ```
 {
-  "extends": [
-    "@neki-dev/eslint-config",
-    "@neki-dev/eslint-config/typescript"
-  ]
+  "extends": [ "neki/ts" ]
+}
+```
+```
+{
+  "extends": [ "neki/jsx" ]
 }
 ```

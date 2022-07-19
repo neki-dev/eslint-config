@@ -1,21 +1,22 @@
 {
-  "name": "@neki-dev/eslint-config",
+  "name": "eslint-config-neki",
   "description": "Personal ESLint configuration",
-  "version": "0.2.1",
+  "version": "0.0.2",
   "author": {
     "name": "Nikita Galadiy",
     "email": "dev@neki.guru",
     "url": "https://neki.guru/"
   },
+  "main": "./js.js",
   "license": "MIT",
-  "main": "default.json",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
-    "eslint": "^8.12.0",
+    "eslint": "^8.20.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0"
@@ -23,8 +24,9 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
-    "eslint": "^8.12.0",
+    "eslint": "^8.20.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
