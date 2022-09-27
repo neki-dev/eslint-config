@@ -5,11 +5,14 @@ npx install-peerdeps --dev eslint-config-neki
 
 ```
 {
-  "extends": [ "neki/ts" ]
+  "extends": [ "neki/PRESET_NAME" ]
 }
 ```
-```
-{
-  "extends": [ "neki/jsx" ]
-}
-```
+
+Presets:
+* js
+* js-react
+* js-solid
+* ts
+* ts-react
+* ts-solid

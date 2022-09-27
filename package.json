@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-neki",
   "description": "Personal native eslint config",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": {
     "name": "Nikita Galadiy",
     "email": "dev@neki.guru",
@@ -19,7 +19,8 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-solid": "^0.7.3"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
@@ -31,6 +32,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-solid": "^0.7.3"
   }
 }
