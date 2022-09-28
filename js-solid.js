@@ -11,7 +11,6 @@ module.exports = {
   },
   "rules": {
     ...require('./rules/js'),
-    ...require('./rules/ts'),
     ...require('./rules/solid'),
   },
 };

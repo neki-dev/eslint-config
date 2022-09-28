@@ -1,8 +1,12 @@
+## 🥷🏼 Personal native eslint presets
+
+Install:
 ```
-npm i eslint-config-neki -D --force
-npx install-peerdeps --dev eslint-config-neki
+npm i eslint -D
+npm i eslint-config-neki -D
 ```
 
+Configure:
 ```
 {
   "extends": [ "neki/PRESET_NAME" ]
