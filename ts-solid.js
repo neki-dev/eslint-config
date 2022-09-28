@@ -6,7 +6,7 @@ module.exports = {
   },
   "parser": "@typescript-eslint/parser",
   "plugins": ["solid"],
-  "extends": ["eslint:recommended", "plugin:solid/typescript"],
+  "extends": ["airbnb-base", "airbnb-typescript/base", "plugin:solid/typescript"],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
