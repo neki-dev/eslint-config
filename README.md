@@ -1,22 +1,26 @@
-## 🥷🏼 Personal native eslint presets
+## 🥷🏼 Personal native ESLint presets
 
-Install:
+.
+
+* ### Install
+  
 ```
 npm i eslint -D
 npm i eslint-config-neki -D
 ```
 
-Configure:
-```
+* ### Usage
+  
+```json
 {
-  "extends": [ "neki/PRESET_NAME" ]
+  "extends": [ "neki/{preset_name}" ]
 }
 ```
 
-Presets:
-* js
-* js-react
-* js-solid
-* ts
-* ts-react
-* ts-solid
+Preset names:
+* `js` - Vanilla JavaScript
+* `js-react` - React on JavaScript 
+* `js-solid` - Solid on JavaScript
+* `ts` - TypeScript
+* `ts-react` - React on TypeScript 
+* `ts-solid` - Solid on TypeScript 
